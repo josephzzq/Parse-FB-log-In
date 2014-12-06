@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProfileViewController.h"
 
 @interface ViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet UITextField *NameID;
+
 
 
 @end
